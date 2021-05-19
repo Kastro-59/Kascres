@@ -192,9 +192,9 @@ Particle3D = function (material ) {
 	//this.material = material instanceof Array ? material : [ material ];
 	
 	// define properties
-	this.velocity = new THREE.Vector3(0,-4,0);
-	this.velocity.rotateX(randomRange(-15,15)); 
-	this.velocity.rotateY(randomRange(0,180)); 
+	this.velocity = new THREE.Vector3(0,-2,0);
+	this.velocity.rotateX(randomRange(-7,7)); 
+	this.velocity.rotateY(randomRange(0,360)); 
 	this.gravity = new THREE.Vector3(0,0,0); 
 	this.drag = 1; 
 	// methods... 
